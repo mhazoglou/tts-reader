@@ -1,0 +1,12 @@
+[package]
+name = "tts_reader"
+version = "0.1.0"
+authors = ["Michael Hazoglou <michaelhazoglou@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+inputbot = "0.5.0"
+tts = "0.14.0"
+terminal-clipboard = "0.2.1"
