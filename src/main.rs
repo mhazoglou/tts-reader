@@ -40,7 +40,7 @@ fn main() {
             
             let text = match string_res {
                 Ok(string) => {
-                    string.replace("-\r\n", "").replace("-\n", "")
+                    string.replace("\r", "").replace("-\n", "")
                     .replace(|c: char| {c.is_whitespace()}, " ")
                 },
                 Err(_) => panic!["Clipboard did not yield text."]
