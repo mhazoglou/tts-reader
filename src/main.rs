@@ -27,7 +27,7 @@ fn main() {
             break;
         }
         
-        if RKey.is_pressed() {
+        if F9Key.is_pressed() {
             // copying to clipboard
             LControlKey.press();
             CKey.press();
